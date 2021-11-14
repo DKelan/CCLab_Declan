@@ -1,0 +1,40 @@
+body{
+  margin: 0;
+}
+
+.text{
+  color: blue;
+  border-color: red;
+  border-width: 1px;
+  border-style: dashed;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.box1{
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+
+  padding: 20px;
+  margin top: 8px;
+  margin-bottom: 30px;
+  width: 25%;
+}
+
+.absoluteBox{
+  position: absolute;
+  left: 300px;
+  top: 0px;
+}
+
+.relativeBox{
+  position: relative;
+  left: 50px;
+}
+
+.fixedBox{
+  position: fixed;
+  left: 500px;
+  top: 200px;
+}

@@ -1,0 +1,103 @@
+p {
+  font-size: 25px;
+  color: white;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+.songTitle {
+  font-size: 50px;
+  text-align: center;
+}
+
+.artistName {
+  font-size: 35px;
+  text-align: center;
+}
+
+.lyrics {
+  background-image: url("images/Superwoman.jpeg");
+  text-align: center;
+}
+
+.lyrics2 {
+  background-image: url("images/Kaija.jpeg");
+  text-align: center;
+  font-size: 60px;
+}
+
+.lyrics3 {
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
+
+.redText {
+  color: red;
+}
+
+.blackText {
+  color: black;
+  text-shadow: 2px 2px 3px white;
+}
+
+.italics {
+  font-style: italic;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.fontStyle {
+  font-family: cursive;
+  font-size: 30px;
+}
+
+.textDecoration {
+  text-decoration: underline overline yellow;
+}
+
+.coldEffect {
+  font-weight: bold;
+  color: blue;
+  text-shadow: 4px 1px 4px white;
+}
+
+.badass {
+  font-style: italic;
+  font-weight: lighter;
+  color: yellow;
+}
+
+.badass2 {
+  font-style: italic;
+  font-weight: lighter;
+  color: yellow;
+  font-size: 80px;
+}
+
+.evening {
+  font-style: italic;
+  font-weight: bold;
+  color: orange;
+}
+
+.gold {
+  font-weight: bold;
+  color: gold;
+  text-shadow: 1px 2px 1px black;
+}
+
+#ShadowTextEffect {
+  text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+#Päiviä {
+  text-shadow: #fc0 1px 0 10px;
+}
+#Kaija {
+  color: red;
+}
