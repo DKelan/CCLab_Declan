@@ -1,0 +1,178 @@
+body{
+  margin: 0;
+  display: inline-block;
+  background-color: black;
+
+}
+
+.header{
+  background-color: white;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  height: 100px;
+  width: 1450px;
+  font-size: 30px;
+  font-family: inherit;
+}
+
+.main{
+  background-color: black;
+  border-width: 1px;
+  border-style: solid;
+  height: 600px;
+  width: 1450px;
+}
+
+.footer{
+  background-color: black;
+  border-color: black;
+  color: white;
+  border-width: 1px;
+  border-style: solid;
+  height: 86px;
+  width: 1450px;
+}
+
+.mainArticle{
+  border-color: white;
+  color: white;
+  border-width: 1px;
+  border-style: solid;
+  position: fixed;
+  bottom: 350px;
+  left: 100px;
+  height: 300px;
+  width: 600px;
+  padding: 10px;
+}
+
+.mainArticleText{
+  border-color: white;
+  color: white;
+  border-width: 1px;
+  border-style: solid;
+  position: fixed;
+  bottom: 350px;
+  right: 100px;
+  height: 300px;
+  width: 600px;
+  font-size: 20px;
+  font-style: italic;
+  padding: 10px;
+}
+
+.subArticle1{
+  border-color: white;
+  color: white;
+  border-width: 1px;
+  border-style: solid;
+  position: fixed;
+  height: 200px;
+  width: 400px;
+  font-size: 23px;
+  text-align: center;
+  bottom: 100px;
+  left: 100px;
+}
+
+.subArticle2{
+  border-color: white;
+  color: white;
+  border-width: 1px;
+  border-style: solid;
+  position: fixed;
+  height: 200px;
+  width: 400px;
+  font-size: 40px;
+  text-align: center;
+  bottom: 100px;
+  left: 520px;
+}
+
+.subArticle3{
+  border-color: white;
+  color: white;
+  border-width: 1px;
+  border-style: solid;
+  position: fixed;
+  height: 200px;
+  width: 400px;
+  font-size: 23px;
+  text-align: center;
+  bottom: 100px;
+  right: 100px;
+}
+
+.mainArticlePage{
+  background-color: black;
+  color: white;
+  border-color: white;
+  padding: 70px 300px;
+  display: inline-block;
+}
+
+.glossary{
+  color: white;
+  padding: 70px 450px;
+}
+
+/* .article-1{
+  bottom: 100px;
+  left: 100px;
+} */
+
+/* #article-2{
+  bottom: 100px;
+  left: 520px;
+} */
+
+/* .article-3{
+  bottom: 100px;
+  right: 100px;
+} */
+
+#WNC{
+  font-size: 80px;
+  color: black;
+}
+
+#WNC2{
+  font-size: 50px;
+  color: white;
+}
+
+#mainArticleHeader{
+  font-size: 40px;
+  font-style: normal;
+}
+
+#pageTitle{
+  font-size: 40px;
+  font-style: italic;
+}
+
+#linkColor{
+  color: red;
+}
+
+#POS{
+  color: yellow;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#N{
+  text-decoration: underline;
+}
+
+#nText{
+  font-style: italic;
+}
+
+#smallText{
+  font-size: 15px;
+  font-style: italic;
+}
+
+}

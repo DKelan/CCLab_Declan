@@ -1,0 +1,39 @@
+.flex-container{
+  width: 1500px;
+  height: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-flow: row wrap;
+  text-align: left;
+  grid-gap: 10px 20px;
+}
+
+.header{
+  background-color: blue;
+  width: 1500px;
+}
+
+.mainArticle{
+  width: 700px;
+  height: 350px;
+  // insert p5 image
+}
+
+.mainArticleText{
+  background-color: yellow;
+  width: 700px;
+  height: 350px;
+}
+
+.subArticle{
+  background-color: green;
+  width: 800px;
+  height: 100px;
+}
+
+.footer{
+  background-color: orange;
+  width: 1500px;
+  height: 150px;
+}
