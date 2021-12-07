@@ -1,4 +1,4 @@
-let img;
+let img; // Professor Leon's Sketch: https://editor.p5js.org/DKelan/sketches/E3pCvYbEB
 let buttons = [];
 // let words = ['youngest', 'unrelenting', 'galvanized', 'roll up a sleeve', 'tirelessly'];
 
@@ -43,7 +43,7 @@ class Button{
       fill(255);
       textSize(15);
       textStyle(BOLDITALIC);
-      text('galvanized', this.x - 30, this.y - 30);
+      text('BiasBEverywhere',this.x - 30, this.y - 30);
       this.col = [0, 0, 0, 127];
 
     }
