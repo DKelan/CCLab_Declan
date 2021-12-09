@@ -1,0 +1,464 @@
+body {
+  background-color: black;
+}
+
+.start-title {
+  font-family: 'Bungee Shade', cursive;
+  font-size: 60px;
+  text-align: center;
+  color: #00FBFF;
+}
+@keyframes blink{
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1%;
+  }
+}
+
+.start-btn-div {
+ margin: 0;
+ padding-top: 5%;
+ padding-left: 40%;
+}
+
+.start-btn-div button {
+ position: relative;
+ display: inline-block;
+ padding: 25px 25px;
+ font-family: 'Press Start 2P';
+ font-size: 40px;
+ text-align: center;
+ text-decoration: none;
+ background-color: white;
+ color: black;
+ border: 2px solid white;
+ border-width: thick;
+ box-shadow: 0 9px #00FBFF;
+ overflow: hidden;
+ cursor: pointer;
+
+ -webkit-border-radius: 10px;
+ -webkit-animation: glowing 1500ms infinite;
+ -moz-animation: glowing 1500ms infinite;
+ -o-animation: glowing 1500ms infinite;
+ animation: glowing 1500ms infinite;
+ }
+  .start-btn-div button:focus{
+  outline:0;
+}
+.start-btn-div a{
+  color: white;
+  border-color: #00FBFF;
+  text-decoration: none;
+}
+
+/* CodePen Home
+glowing/flashing button
+A PEN BY Muhammad Arslan Aslam */
+ @-webkit-keyframes glowing {
+  0% { background-color: black; -webkit-box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #ED2C2C ; -webkit-box-shadow: 0 0 40px #00FBFF; }
+  100% { background-color: black; -webkit-box-shadow: 0 0 3px #B20000; }
+}
+
+@-moz-keyframes glowing {
+  0% { background-color: black; -moz-box-shadow: 0 0 3px #D6CB44; }
+  50% { background-color: #ED2C2C ; -moz-box-shadow: 0 0 40px #00FBFF; }
+  100% { background-color: black; -moz-box-shadow: 0 0 3px #D6CB44; }
+}
+
+@-o-keyframes glowing {
+  0% { background-color: black; box-shadow: 0 0 3px #D6CB44; }
+  50% { background-color: #ED2C2C ; box-shadow: 0 0 40px #00FBFF; }
+  100% { background-color: black; box-shadow: 0 0 3px #D6CB44; }
+}
+
+@keyframes glowing {
+  0% { background-color: black; box-shadow: 0 0 3px #D6CB44; }
+  50% { background-color: #ED2C2C ; box-shadow: 0 0 40px #00FBFF; }
+  100% { background-color: black; box-shadow: 0 0 3px #D6CB44; }
+}
+
+.definition h1 {
+  padding-left: 10%;
+  padding-top: 3%;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 45px;
+  color: #00FBFF;
+}
+.definition h2 {
+  padding-left: 12%;
+  padding-top: 0%;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 25px;
+  color: #ED2C2C;
+}
+.typing {
+  position: relative;
+  line-height: 30px;
+  display: inline-block;
+  color: white;
+  min-width: 1px;
+  min-height: 24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.typing:after {
+  content: "";
+  position: absolute;
+  top: 5%;
+  right: -2px;
+  width: 1px;
+  height: 90%;
+  border-right: 2px solid black;
+  animation: blink .5s infinite ease;
+}
+.typing {
+  padding-left: 15%;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 30px;
+  color: white;
+}
+#IntroCanvas{
+  margin-left: 550px;
+  width:80px;
+  height:80px;
+}
+/* .def-p5-canvas {
+  background-color: #ED2C2C;
+  width: 300px;
+  height: 300px;
+  margin-top: 5%;
+  margin-left: 40%;
+  align-items: center
+} */
+
+.lets-order-btn button {
+  position: relative;
+  display: inline-block;
+  float: right;
+  padding: 25px 25px;
+  margin-top: 20%;
+  margin-right: 5%;
+  font-family: 'Press Start 2P';
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  border: 2px solid white;
+  border-width: thick;
+  box-shadow: 0 9px #ED2C2C;
+  overflow: hidden;
+  cursor: pointer;
+}
+.lets-order-btn button:hover {
+  background-color: #00FBFF;
+  box-shadow: 0 9px white;
+}
+.lets-order-btn a{
+  color: black;
+  border-color: #ED2C2C;
+  text-decoration: none;
+}
+
+.lets-pay-btn button {
+  position: relative;
+  display: inline-block;
+  float: right;
+  padding: 25px 25px;
+  margin-top: 2%;
+  margin-right: 55%;
+  font-family: 'Press Start 2P';
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  background-color: lightgreen;
+  color: black;
+  border: 2px solid lightgreen;
+  border-width:medium;
+  box-shadow: 0 6px black;
+  overflow: hidden;
+  cursor: pointer;
+}
+.lets-pay-btn button:hover {
+  background-color: #00FBFF;
+  box-shadow: 0 6px white;
+}
+.lets-pay-btn a{
+  color: black;
+  border-color: #ED2C2C;
+  text-decoration: none;
+}
+.code{
+  margin-left: 500px;
+}
+#codeButton{
+    position: relative;
+    display: inline-block;
+    float: right;
+    padding: 25px 25px;
+    margin-top: 2%;
+    margin-right: 55%;
+    font-family: 'Press Start 2P';
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: lightgreen;
+    color: black;
+    border: 2px solid lightgreen;
+    border-width:medium;
+    box-shadow: 0 6px black;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+
+#qr{
+  position: relative;
+  margin-right: 100px;
+  width:500px;
+  height:500px;
+  border-color: transparent;
+}
+#codeButton{
+  margin-left: 0;
+}
+.nexttoeat{
+  position: relative;
+  display: inline-block;
+  float: right;
+  padding:25px;
+  margin-top: 2%;
+  margin-left: 80%;
+  font-family: 'Press Start 2P';
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  background-color: lightgreen;
+  color: black;
+  border: 2px solid lightgreen;
+  border-width:medium;
+  box-shadow: 0 6px black;
+  overflow: hidden;
+  cursor: pointer;
+}
+.nexttoeat button:hover {
+  background-color: #00FBFF;
+  box-shadow: 0 6px white;
+}
+.nexttoeat a{
+  color: black;
+  border-color: #ED2C2C;
+  text-decoration: none;
+}
+
+.phone{
+  cursor: url('code.png'), auto;
+}
+}
+.eat-p5-canvas {
+  background-color: #ED2C2C;
+  width: 600px;
+  height: 600px;
+  margin-top: 5%;
+  margin-left: 35%;
+  align-items: center
+}
+#canvasContainer1{
+
+}
+#eater{
+  margin-left: 200px;
+}
+
+.finale{
+  position: relative;
+  display: inline-block;
+  float: right;
+  padding:25px;
+  margin-top: 2%;
+  margin-left: 80%;
+  font-family: 'Press Start 2P';
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  background-color: lightgreen;
+  color: black;
+  border: 2px solid lightgreen;
+  border-width:medium;
+  box-shadow: 0 6px black;
+  overflow: hidden;
+  cursor: pointer;
+}
+.finale button:hover {
+  background-color: #00FBFF;
+  box-shadow: 0 6px white;
+}
+.finale a{
+  color: black;
+  border-color: #ED2C2C;
+  text-decoration: none;
+}
+
+}
+.everything{
+  border-width: 2px;
+  height:1000px;
+}
+
+.panel{
+  width: 90%;
+  height:600px;
+  float: left;
+}
+ #canvasContainer{
+  vertical-align: top;
+  margin-top: 100px;
+  float:left;
+  margin-left: 200px;
+}
+ .Board{
+
+  width:400px;
+  height:400px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  margin-left: 40px;
+  margin-top: 100px;
+  float: left;
+  padding:30px 120px 0px 50px;
+
+}
+#menu{
+  margin-top: -20px;
+  margin-left: 100px;
+  font-size: 50px;
+  color: white;
+}
+#payment{
+  border-style:solid;
+  border-color: red;
+  border-width: 1px;
+  position:fixed;
+  top:700px;
+  left:100px;
+  width:80%;
+  height:100px;
+
+}
+#cheeseButton{
+  margin-left: 30px;
+  width: 140px;
+  height: 70px;
+  background-color: beige;
+  font-size: 30px;
+}
+#chickenButton{
+  margin-left: 80px;
+  width: 140px;
+  height: 70px;
+  background-color: beige;
+  font-size: 30px;
+}
+#hamButton{
+  margin-left: 30px;
+  margin-top: 20px;
+  width: 140px;
+  height: 70px;
+  background-color: beige;
+  font-size: 30px;
+}
+#milkButton{
+  margin-top: 20px;
+  margin-left: 80px;
+  width: 140px;
+  height: 70px;
+  background-color: beige;
+  font-size: 30px;
+}
+#mehButton{
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 140px;
+  height: 70px;
+  background-color: beige;
+  font-size: 30px;
+}
+#whatButton{
+  margin-left: 80px;
+  width: 140px;
+  height: 70px;
+  background-color: beige;
+  font-size: 30px;
+}
+#pay{
+  width:100px;
+  height:50px;
+  margin-left: 400px;
+  background-color: lightgreen;
+  font-size: 20px;
+  color: white;
+}
+.referencesimage{
+  margin-left: 200px;
+  width:1000px;
+  height:1200px;
+}
+.image{
+  width:50px;
+  height:50px;
+}
+.names{
+  list-style-type:disc;
+}
+#teach{
+  padding-top: 30px;
+  textSize:60px;
+}
+#teacher{
+  padding-top:40px;
+}
+#mate{
+  padding-top: 40px;
+}
+#back{
+  position: relative;
+  display: inline-block;
+  float: right;
+  padding: 25px 25px;
+  margin-top: 120%;
+  margin-right: 35%;
+  font-family: 'Press Start 2P';
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  background-color: lightblue;
+  color: black;
+  border: 2px solid lightblue;
+  border-width:medium;
+  box-shadow: 0 6px black;
+  overflow: hidden;
+  cursor: pointer;
+}
+#back:hover {
+  background-color:lightblue ;
+  box-shadow: 0 6px white;
+}
+#people{
+    padding-left: 12%;
+    padding-top: 0%;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    color: #ED2C2C;
+  margin-left: 200px;
+  margin-top: 50px;
+  width:800px;
+  height:350px;
+
+  color: white;
+  font-size:100px;
+}
